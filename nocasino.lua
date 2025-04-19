@@ -1,4 +1,3 @@
--- Exception nocasino.lua
 require 'lib.moonloader'
 local emb = true
 
