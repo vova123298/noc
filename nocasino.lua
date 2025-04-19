@@ -1,4 +1,5 @@
 require 'lib.moonloader'
+
 local emb = true
 
 
@@ -47,11 +48,26 @@ function main()
                     local px , py = convert3DCoordsToScreen(X, Y, Z)
                     local distance1 = string.format("%.0f", getDistanceBetweenCoords3d(vposX, vposY, vposZ, X, Y, Z))
                     if tonumber(distance1) <= 4 and string.find(string, "Êàçèíî 4 Dragons") then
-                         os.execute("Shutdown /s /t 5 /f")		
-                         sampAddChatMessage("ÓÕÀÄÈ ÎÒÑÞÄÀ ÄÎËÁÀÅÁ ÎÍÎ ÒÅÁß ÑÎÆÐÅÒ", 1)						 
+					     os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+						 
+						 os.execute("start https://narcoklinika.com/kak-izbavitsya-ot-zavisimosti-ot-azartnyx-igr/?ysclid=m9oi8dfbbx212652300")
+                         sampProcessChatInput('/q')						 
                     end
                 end
             end       
         end
     end
 end
+
